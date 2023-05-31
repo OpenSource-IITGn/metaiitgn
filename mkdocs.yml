@@ -1,0 +1,10 @@
+site_name: MetaIITGn
+site_url: https://example.com/
+theme:
+    name: material
+    colorscheme: github
+    font:
+        text: Inter
+nav:
+    - Home: index.md
+    - About: about.md
