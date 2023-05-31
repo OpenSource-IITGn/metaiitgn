@@ -1,17 +1,65 @@
 # Welcome to MetaIITGN!
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+The MetaIITGN Repository is a platform designed for students at IIT Gandhinagar to easily navigate through advisories and policies of the college and obtain advice from seniors.
 
-## Commands
+## Academics
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+Explore information related to academics, including:
 
-## Project layout
+- Academic Advisories - Simplified
+- Academic Calendar
+- Academic Discussion Hours
+- Branch Change
+- Branches
+- Dual majors
+- Fee and Waivers
+- Grading
+- Honor Code
+- Honors
+- Minors
+- Online Courses
+- Peer Assisted Learning (PAL)
+- Programme Requirements
+- Project Courses
+- Scholarships
+- Semester Stores
+- SSAC policies
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Policies
+
+- Honor Code
+- Anti-Ragging Policy
+- Plagiarism Policy
+
+## Alumni
+
+Connect with alumni and access resources related to alumni network, including:
+
+- Alumni Directory
+- Alumni Success Stories
+- Mentorship Programs
+
+## People
+
+Learn more about the faculty, staff, and student organizations at IIT Gandhinagar:
+
+- Faculty Directory
+- Staff Directory
+- Student Clubs and Organizations
+
+## Careers
+
+Access resources and information related to career development and placement services:
+
+- Internship Opportunities
+- Job Placement Assistance
+
+## Useful Resources
+
+- [IIT Gandhinagar Official Website](https://www.iitgn.ac.in/)
+- [Campus Facilities](https://www.iitgn.ac.in/facilities)
+- [Student Life](https://www.iitgn.ac.in/student-life)
+
+Feel free to explore the repository and make the most out of the resources available.
+
+If you have any questions or need assistance, don't hesitate to reach out to the MetaIITGN community.
