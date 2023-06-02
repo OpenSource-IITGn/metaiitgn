@@ -40,11 +40,11 @@ Select an option below to get started. Or continue scrolling to learn more about
 
 ## Why does this exist?
 
-MetaIITGandhinagar aspires to be a centralized hub and interactive platform created specifically for IIT Gandhinagar students. Drawing inspiration from MetaKGP, our platform is a vast and organized repository of everything IITGN-related. From academics, departments, campus amenities, to student groups, we aim to provide a well-rounded view of life and studies at IITGN, making it a personalized Wikipedia for your needs.
+Whether you are a first-year student charting your academic journey, a final-year student seeking research advice, or just someone interested in extracurricular activities, MetaIITGandhinagar has you covered. We host a wide array of articles, guides, and firsthand accounts from your peers.
 
-Whether you are a first-year student charting your academic journey, a final-year student seeking research advice, or just someone interested in extracurricular activities, MetaIITGandhinagar has you covered. We host a wide array of articles, guides, and firsthand accounts from your peers. More than a passive information resource, it's a user-driven platform inviting your active engagement. Share your insights and experiences, contributing to this evolving knowledge reservoir that benefits everyone at IITGN.
+MetaIITGandhinagar aspires to be a centralized hub and interactive platform for IIT Gandhinagar students. Drawing inspiration from MetaKGP, this platform is a vast, open source repository of everything IITGN-related. From how to change your branch to the menu at teapost, MetaGn aims to cover every aspect of life here and put it online with the help of articles written by the community.More than a passive information resource, it's a user-driven platform inviting your active engagement. Share your knowledge by contributing to an article and your insights and experiences in the discussion section. 
 
-MetaIITGandhinagar is by design, entirely open-source, built on MkDocs with a customized material theme, with its contents sourced from students across our community. We welcome contributions from everyone, and you can find out more about how to contribute [here](https://www.github.com).
+Find out more about how to contribute [here](https://www.github.com).
 
 
 
