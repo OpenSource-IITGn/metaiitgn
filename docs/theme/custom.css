@@ -1,0 +1,61 @@
+
+h1.md-title {
+    color: #4baea0;
+  }
+
+h3, h4, h5, h6 {
+    font-weight: bold;
+    margin-top: 1.2em;
+    margin-bottom: 0.6em;
+  }
+  
+  /* Add a line under the headings */
+h2, h3, h4, h5, h6 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.3em;
+  }
+  
+  /* Style the link color within the headings */
+  h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    color: #0645ad;
+    text-decoration: none;
+  }
+  
+  /* Style the link hover color within the headings */
+  h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
+    color: #002bb8;
+    text-decoration: underline;
+  }
+
+  .md-nav__button {
+  background-color: #eaecf0;
+  border-color: #c8ccd0;
+  color: #000;
+}
+
+/* Change the ribbon hover color */
+.md-nav__button:hover {
+  background-color: #c8ccd0;
+  border-color: #a4a8ac;
+  color: #000;
+}
+
+.md-header {
+    background-color: hsl(230, 48%, 48%);
+    border-bottom-color: #1178df;
+    box-shadow: none;
+  }
+
+  .md-tabs__tab {
+    background-color: hsl(326, 82%, 36%);
+    color: hsl(329, 87%, 54%);
+}
+  
+.md-tabs__tab--active {
+    background-color:  hsl(326, 82%, 36%);
+    color:  hsl(326, 82%, 36%);
+  }
+
+  h1{
+    color: #4baea0;
+  }

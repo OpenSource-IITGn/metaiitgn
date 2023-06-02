@@ -1,10 +1,29 @@
-site_name: Meta@IITGn
+site_name: " "
 site_url: https://example.com/
+repo_url: https://github.com/OpenSource-IITGn/metaiitgn
 theme:
     name: material
-    colorscheme: github
+    extra:
+        repository: https://github.com/your/repository
+        logo: /docs/custom-logo.png
+    features:
+        - navigation.instant
+        - navigation.tracking
+        - navigation.tabs
+        - navigation.sections
+        - navigation.expand
+        - navigation.path
     font:
         text: Inter
 nav:
     - Home: index.md
     - About: about.md
+extra_css:
+  - https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap
+  - theme/custom.css
+
+extra_javascript:
+  - https://kit.fontawesome.com/5772cf3e3c.js
+
+markdown_extensions:
+  - attr_list
