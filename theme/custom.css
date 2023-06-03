@@ -1,4 +1,24 @@
+.md-ellipsis {
+  font-family: "Inter";
+  font-weight: 100;
+  font-size: larger;
+  margin-left: -25px;
+}
+.md-content .md-button {
+  font-family: "Inter";
+  background-color:  hsl(230, 48%, 48%);
+  border-color:  hsl(230, 48%, 48%);
+  color: #FFFFFF;
+  border: 4px #d6d3ff;
+  font-weight: 100;
+  border-radius: 5px;
+  font-size: larger;
 
+}
+.md-sidebar {
+  width: 220px; /* Adjust the value as needed */
+  font-size: normal;
+}
 h1.md-title {
     color: #4baea0;
   }
