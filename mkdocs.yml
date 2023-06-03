@@ -1,8 +1,13 @@
-site_name: " "
+site_name: Meta<b>IITGandhinagar</b>
 site_url: https://example.com/
 repo_url: https://github.com/OpenSource-IITGn/metaiitgn
 theme:
     name: material
+    palette:
+      primary: 'light-violet'
+      accent: 'light-violet'
+    font:
+      text: 'Roboto'
     extra:
         repository: https://github.com/your/repository
         logo: /docs/custom-logo.png
@@ -16,8 +21,31 @@ theme:
     font:
         text: Inter
 nav:
-    - Home: index.md
-    - About: about.md
+    - Quick Links: 
+      - About: index.md
+      - Clubs: clubs.md
+      - What's New: updates.md
+      - Contacts: contacts.md
+    - Academics:
+      - Courses: about.md
+      - Question Papers: about.md
+    - Policies:
+      - Academic Advisories: policies.md
+      - SSAC: policies.md
+      - Scholarships: policies.md
+      - Honour Code: policies.md
+      - Anti-Ragging Policy: policies.md
+    - Courses:
+      - Courses offered: courses.md
+      - Course guides: courses.md
+      - Course materials: courses.md
+    - Careers:
+      - Internships: careers.md
+      - Placements: placements.md
+    - Alumni:
+      - Alumni Directory: alumni.md
+      - Success stories: alumni.md
+      - Mentorship: alumni.md
 extra_css:
   - https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap
   - theme/custom.css
@@ -27,3 +55,6 @@ extra_javascript:
 
 markdown_extensions:
   - attr_list
+
+plugins:
+  - search
