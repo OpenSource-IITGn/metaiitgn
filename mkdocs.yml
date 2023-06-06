@@ -47,9 +47,9 @@ nav:
       - Success stories: alumni.md
       - Mentorship: alumni.md
     - Community Guidelines:
-      - How to contribute: guidelines.md
-      - Guidelines for Articles: guidelines.md
-      - Guidelines for Discussions: guidelines.md
+      - How to contribute: howtocontribute.md
+      - Guidelines for Articles: articleguidelines.md
+      - Guidelines for Discussions: discussionguidelines.md
     - Top Contributors:
         
     
