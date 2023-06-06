@@ -46,6 +46,13 @@ nav:
       - Alumni Directory: alumni.md
       - Success stories: alumni.md
       - Mentorship: alumni.md
+    - Community Guidelines:
+      - How to contribute: guidelines.md
+      - Guidelines for Articles: guidelines.md
+      - Guidelines for Discussions: guidelines.md
+    - Top Contributors:
+        
+    
 extra_css:
   - https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap
   - theme/custom.css
