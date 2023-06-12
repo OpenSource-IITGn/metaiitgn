@@ -101,6 +101,16 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://example.com/discussionguidelines/</loc>
+         <lastmod>2023-06-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://example.com/howtocontribute/</loc>
+         <lastmod>2023-06-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://example.com/policies/</loc>
          <lastmod>2023-06-12</lastmod>
          <changefreq>daily</changefreq>
