@@ -23,9 +23,9 @@ theme:
 nav:
     - Quick Links: 
       - About: index.md
-      - Clubs: clubs.md
-      - What's New: updates.md
-      - Contacts: contacts.md
+      # - Clubs: clubs.md
+      # - What's New: updates.md
+      # - Contacts: contacts.md
     - Academics:
       - About: academics.md
       - Branches: academics_branches.md
