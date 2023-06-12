@@ -1,0 +1,1 @@
+Install wsl > install ubuntu > install conda > install mkdocs > install vs code extension for linux > edit. 
