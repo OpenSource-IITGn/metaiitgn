@@ -31,6 +31,16 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://example.com/academics_dual_majors/</loc>
+         <lastmod>2023-06-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://example.com/academics_grading/</loc>
+         <lastmod>2023-06-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://example.com/academics_graduation/</loc>
          <lastmod>2023-06-12</lastmod>
          <changefreq>daily</changefreq>
@@ -47,6 +57,16 @@
     </url>
     <url>
          <loc>https://example.com/academics_onlinecourses/</loc>
+         <lastmod>2023-06-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://example.com/academics_pal/</loc>
+         <lastmod>2023-06-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://example.com/academics_semester_store/</loc>
          <lastmod>2023-06-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -81,7 +101,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/dual_majors/</loc>
+         <loc>https://example.com/discussionguidelines/</loc>
+         <lastmod>2023-06-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://example.com/howtocontribute/</loc>
          <lastmod>2023-06-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
