@@ -34,6 +34,10 @@ nav:
       - Minors: academics_minors.md
       - Online Courses: academics_onlinecourses.md
       - Graduation Requirements: academics_graduation.md
+      - Dual Major: academics_dual_majors.md
+      - Grading: academics_grading.md
+      - PAL: academics_pal.md
+      - Semester Store: academics_semester_store.md
     - Policies:
       - Academic Advisories: policies.md
       - SSAC: policies.md
@@ -46,15 +50,15 @@ nav:
       - Course materials: courses.md
     - Careers:
       - Internships: careers.md
-      - Placements: placements.md
+      # - Placements: placements.md
     - Alumni:
       - Alumni Directory: alumni.md
       - Success stories: alumni.md
       - Mentorship: alumni.md
     - Community Guidelines:
-      - How to contribute: howtocontribute.md
+      # - How to contribute: howtocontribute.md
       - Guidelines for Articles: articleguidelines.md
-      - Guidelines for Discussions: discussionguidelines.md
+      # - Guidelines for Discussions: discussionguidelines.md
         
     
 extra_css:
