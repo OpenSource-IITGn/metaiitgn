@@ -3,12 +3,12 @@
 Select an option below to get started. Or continue scrolling to learn more about MetaIITGandhinagar. Brought to you, with 💙, by the Technical Council.
 
 <div class="grid-container">
-  <a href="#" class="md-button">Academics <i class="fas fa-graduation-cap"></i></a>
-  <a href="#" class="md-button">Policies <i class="fas fa-landmark"></i></a>
-  <a href="#" class="md-button">Alumni <i class="fas fa-user-graduate"></i></a>
-  <a href="#" class="md-button">People <i class="fas fa-handshake"></i></a>
-  <a href="#" class="md-button">Careers <i class="fas fa-briefcase"></i></a>
-  <a href="#" class="md-button">Courses <i class="fas fa-calculator"></i></a>
+  <a href=academics class="md-button">Academics <i class="fas fa-graduation-cap"></i></a>
+  <a href=policies class="md-button">Policies <i class="fas fa-landmark"></i></a>
+  <a href=alumni class="md-button">Alumni <i class="fas fa-user-graduate"></i></a>
+  <a href=people class="md-button">People <i class="fas fa-handshake"></i></a>
+  <a href=careers class="md-button">Careers <i class="fas fa-briefcase"></i></a>
+  <a href=courses class="md-button">Courses <i class="fas fa-calculator"></i></a>
 </div>
 
 <style>
@@ -53,7 +53,7 @@ Find out more about how to contribute [here](https://www.github.com).
 
 
 
-
+<!-- 
 ## Academics
 
 Explore information related to academics, including:
@@ -104,7 +104,7 @@ Learn more about the faculty, staff, and student organizations at IIT Gandhinaga
 Access resources and information related to career development and placement services:
 
 - Internship Opportunities
-- Job Placement Assistance
+- Job Placement Assistance -->
 
 ## Useful Resources
 

@@ -27,8 +27,13 @@ nav:
       - What's New: updates.md
       - Contacts: contacts.md
     - Academics:
-      - Courses: about.md
-      - Question Papers: about.md
+      - About: academics.md
+      - Branches: academics_branches.md
+      - Branch Change: academics_branchchange.md
+      - Honours: academics_honors.md
+      - Minors: academics_minors.md
+      - Online Courses: academics_onlinecourses.md
+      - Graduation Requirements: academics_graduation.md
     - Policies:
       - Academic Advisories: policies.md
       - SSAC: policies.md
@@ -50,7 +55,6 @@ nav:
       - How to contribute: howtocontribute.md
       - Guidelines for Articles: articleguidelines.md
       - Guidelines for Discussions: discussionguidelines.md
-    - Top Contributors:
         
     
 extra_css:
