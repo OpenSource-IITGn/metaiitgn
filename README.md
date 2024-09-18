@@ -68,7 +68,7 @@
 
 ## How to add a webpage
 
-1. Follow the first 3 steps mentioned above
+1. Follow the first 3 steps mentioned above.
 2. The folder (containing the clone) in a code editor, eg. VS Code
 3. Open the docs folder
 4. Create an md file with the appropriate name, eg. `academics_branches.md`
