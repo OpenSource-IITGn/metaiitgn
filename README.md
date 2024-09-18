@@ -50,6 +50,8 @@
     - Click "Create pull request".
 
 8. **Prepare for the Next Change:**
+    - Go to your fork on Github, open the `main` branch. Here, click "Sync Fork"
+    - Now, go back to your code editor (eg. VS Code)
     - Go to the `main` branch:
     ```sh
     git checkout main
