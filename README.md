@@ -30,26 +30,27 @@
     ```
 
 4. **Make Your Changes:**
+    - Refer **How to add a webpage heading** below this
     - Edit the files as needed.
 
-5. **Commit Your Changes:**
+6. **Commit Your Changes:**
     ```sh
     git add .
     git commit -m "Describe your changes"
     ```
 
-6. **Push Your Changes to GitHub:**
+7. **Push Your Changes to GitHub:**
     ```sh
     git push origin your-branch-name
     ```
 
-7. **Create a Pull Request:**
+8. **Create a Pull Request:**
     - Go to your forked repository on GitHub.
     - Click the "Compare & pull request" button.
     - Add a title and description for your pull request.
     - Click "Create pull request".
 
-8. **Prepare for the Next Change:**
+9. **Prepare for the Next Change:**
     - Go to your fork on Github, open the `main` branch. Here, click "Sync Fork"
     - Now, go back to your code editor (eg. VS Code)
     - Go to the `main` branch:
@@ -64,6 +65,16 @@
     ```sh
     git checkout -b your-next-branch-name
     ```
+
+## How to add a webpage
+
+1. Follow the first 3 steps mentioned above
+2. The folder (containing the clone) in a code editor, eg. VS Code
+3. Open the docs folder
+4. Create an md file with the appropriate name, eg. `academics_branches.md`
+5. Add your content to this file
+6. Open the mkdocs.yml file
+7. Add your page to the list, eg. `Branches: academics_branches.md` 
 
 ## Previewing Your Changes
 
