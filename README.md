@@ -1,5 +1,7 @@
 # Setup and Contribution Guide
 
+---
+
 ## Installation
 
 1. Install `mkdocs`:
