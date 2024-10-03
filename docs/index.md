@@ -19,6 +19,12 @@ Select an option below to get started. Or continue scrolling to learn more about
   font-family: Inter;
 }
 
+@media (max-width: 600px) {
+  .grid-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
 .md-button {
   display: flex;
   align-items: center;
