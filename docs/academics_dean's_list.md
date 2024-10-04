@@ -8,7 +8,7 @@ The Dean's List recognizes those students who achieve a certain level of academi
 
 * The selection of students for the Dean's List and Academic Citation shall be based on one's relative performance among the students from the same discipline while also meeting some minimum eligibility criteria outlined later.
 
-* Tech students (including all variants such as BTech-MTech, BTech-MSc, BTech dual major etc) in their 3rd, 4th, 5th, 6th, and 7th semesters for a batch will be considered for Dean's List and Academic Citation.
+* B.Tech students (including all variants such as BTech-MTech, BTech-MSc, BTech dual major etc) in their 3rd, 4th, 5th, 6th, and 7th semesters for a batch will be considered for Dean's List and Academic Citation.
 
 ##### Top 5% of enrolled students in each discipline based on SPI shall be placed on the Dean's List, provided the following eligibility criteria are met:
 
