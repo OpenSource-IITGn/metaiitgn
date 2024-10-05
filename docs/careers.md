@@ -5,10 +5,10 @@ Career Development Services (CDS) office at IIT Gandhinagar is committed to empo
 
 ## Internship
 ##### Demography - B.Tech 2026
-![Internship Image](https://github.com/yuvraj-rathod-1202/metaiitgn/blob/academic-dean's-list/docs/career%20images/internship(26).png?raw=true)
+![Internship Image](https://github.com/yuvraj-rathod-1202/metaiitgn/blob/academic-dean's-list/docs/career%20images/internship%2826%29.png?raw=true)
 
 ##### Timeline
-![Internship Timeline](https://github.com/yuvraj-rathod-1202/metaiitgn/blob/academic-dean's-list/docs/career%20images/timeline(26).png?raw=true)
+![Internship Timeline](https://github.com/yuvraj-rathod-1202/metaiitgn/blob/academic-dean's-list/docs/career%20images/timeline%2826%29.png?raw=true)
 
 ##### Academic Internship
 ![academic internship](https://github.com/yuvraj-rathod-1202/metaiitgn/blob/academic-dean's-list/docs/career%20images/univercity%20intern.png?raw=true)
@@ -20,18 +20,18 @@ The class of 2024 placement cycle ended with decent figures. While many
 students opted to pursue higher education in national and international
 academia, others received job offers from reputed organizations
 
-![sectorwise offer](https://github.com/yuvraj-rathod-1202/metaiitgn/blob/academic-dean's-list/docs/career%20images/sectorwise(24).png?raw=true)
+![sectorwise offer](https://github.com/yuvraj-rathod-1202/metaiitgn/blob/academic-dean's-list/docs/career%20images/sectorwise%2824%29.png?raw=true)
 
 ##### class of 2025
 ###### Demography
-![demography](https://github.com/yuvraj-rathod-1202/metaiitgn/blob/academic-dean's-list/docs/career%20images/placement(25).png?raw=true)
+![demography](https://github.com/yuvraj-rathod-1202/metaiitgn/blob/academic-dean's-list/docs/career%20images/placement%2825%29.png?raw=true)
 
 ###### Timeline
-![timeline](https://github.com/yuvraj-rathod-1202/metaiitgn/blob/academic-dean's-list/docs/career%20images/timeline(25).png?raw=true)
+![timeline](https://github.com/yuvraj-rathod-1202/metaiitgn/blob/academic-dean's-list/docs/career%20images/timeline%2825%29.png?raw=true)
 
 ###### Sectionwise placement
 
-![sectionwise placement](https://github.com/yuvraj-rathod-1202/metaiitgn/blob/academic-dean's-list/docs/career%20images/sectionwise(25).png?raw=true)
+![sectionwise placement](https://github.com/yuvraj-rathod-1202/metaiitgn/blob/academic-dean's-list/docs/career%20images/sectionwise%2825%29.png?raw=true)
 
 ## Recruiters
 
@@ -39,5 +39,6 @@ academia, others received job offers from reputed organizations
 
 
 
-[You refer this for more information](https://drive.google.com/file/d/1xy5qADYxEOAPGO7w57wpvnTAbcDjr9Vq/view)
-[reference](https://cds.iitgn.ac.in/)
+[You refer this for more information](https://drive.google.com/file/d/1xy5qADYxEOAPGO7w57wpvnTAbcDjr9Vq/view)  
+
+[reference]<https://cds.iitgn.ac.in/>
