@@ -11,7 +11,7 @@ Career Development Services (CDS) office at IIT Gandhinagar is committed to empo
 ![Internship Timeline](https://github.com/yuvraj-rathod-1202/metaiitgn/blob/academic-dean's-list/docs/career%20images/timeline(26).png?raw=true)
 
 ##### Academic Internship
-![academic internship]()
+![academic internship](https://github.com/yuvraj-rathod-1202/metaiitgn/blob/academic-dean's-list/docs/career%20images/univercity%20intern.png?raw=true)
 
 
 ## Placement
@@ -22,6 +22,22 @@ academia, others received job offers from reputed organizations
 
 ![sectorwise offer](https://github.com/yuvraj-rathod-1202/metaiitgn/blob/academic-dean's-list/docs/career%20images/sectorwise(24).png?raw=true)
 
+##### class of 2025
+###### Demography
+![demography](https://github.com/yuvraj-rathod-1202/metaiitgn/blob/academic-dean's-list/docs/career%20images/placement(25).png?raw=true)
+
+###### Timeline
+![timeline](https://github.com/yuvraj-rathod-1202/metaiitgn/blob/academic-dean's-list/docs/career%20images/timeline(25).png?raw=true)
+
+###### Sectionwise placement
+
+![sectionwise placement](https://github.com/yuvraj-rathod-1202/metaiitgn/blob/academic-dean's-list/docs/career%20images/sectionwise(25).png?raw=true)
+
 ## Recruiters
 
 ![Recruiters](https://github.com/yuvraj-rathod-1202/metaiitgn/blob/academic-dean's-list/docs/career%20images/recruiters.png?raw=true)
+
+
+
+[You refer this for more information](https://drive.google.com/file/d/1xy5qADYxEOAPGO7w57wpvnTAbcDjr9Vq/view)
+[reference](https://cds.iitgn.ac.in/)
