@@ -7,8 +7,9 @@ IIT Gandhinagar offers Bachelor of Technology (BTech) programs spanning a durati
 3. Civil Engineering
 4. Computer Science & Engineering
 5. Electrical Engineering
-6. Materials Engineering
-7. Mechanical Engineering
+6. Integrated Circuit Design & Technology
+7. Materials Engineering
+8. Mechanical Engineering
 
 In addition to the aforementioned programs, the institute also offers admission to three dual-degree programs, encompassing both BTech and MTech degrees, which are completed over a period of five years. The available dual-degree programs are:
 
@@ -40,6 +41,10 @@ The Computer Science and Engineering program at IIT Gandhinagar offers a compreh
 ### Electrical Engineering
 
 The Electrical Engineering discipline at IIT Gandhinagar offers a comprehensive program that prepares students for a wide range of career opportunities in the field. The curriculum covers fundamental topics such as circuits, electronics, power systems, control systems, and signal processing. Students gain hands-on experience through laboratory work and projects, developing practical skills in areas like electrical machines, power electronics, and communication systems. The faculty consists of expert professors who provide mentorship and guidance to students. The program emphasizes innovation and research, encouraging students to explore emerging technologies and pursue cutting-edge projects. Graduates of the program are well-equipped to contribute to industries such as power generation, telecommunications, robotics, and renewable energy, making a significant impact in the field of electrical engineering.
+
+### Integrated Circuit Design & Technology
+
+The Integrated Circuit Design and Technology (ICDT) discipline at IIT Gandhinagar is designed to equip students with comprehensive expertise in semiconductor technology, covering areas such as semiconductor materials, devices, circuits, IC design, and manufacturing. With hands-on experience throughout the entire IC development process, students will gain practical knowledge in design, packaging, and deployment of integrated circuits. The curriculum is flexible, allowing students to explore various subfields of semiconductor technology and tailor their learning to suit individual career goals. Industry partnerships with renowned companies like Intel, Qualcomm, Texas Instruments, and GlobalFoundries offer students valuable internships and networking opportunities, ensuring industry-relevant training. With India aiming to become a global hub for electronics system design and manufacturing (ESDM), this program positions students at the forefront of innovation in the semiconductor sector.
 
 ### Materials Engineering
 
