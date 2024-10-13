@@ -18,7 +18,11 @@ Select an option below to get started. Or continue scrolling to learn more about
   grid-gap: 15px;
   font-family: Inter;
 }
-
+@media (max-width: 600px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 .md-button {
   display: flex;
   align-items: center;
