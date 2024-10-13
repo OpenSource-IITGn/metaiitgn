@@ -28,22 +28,24 @@ jobs:
     - name: Build MkDocs site
       run: mkdocs build --clean
 
-    - name: Push changes to gh-pages branch
+    - name: Push changes to new branch
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git checkout -b gh-pages
+        git checkout -b gh-pages-update
         cp -r site/* .
         git add .
         git commit -m "Update GitHub Pages from action [skip ci]"
-        git push origin gh-pages --force
+        git push origin gh-pages-update --force
 
     - name: Create Pull Request to gh-pages
       uses: peter-evans/create-pull-request@v5
       with:
         commit-message: "Deploy MkDocs site"
-        branch: gh-pages
+        branch: gh-pages-update
         title: "Update MkDocs site"
-        body: "This PR updates the GitHub Pages site with the latest changes from the main branch. It's an automated workflow, which can be found in `.github/wrokflows`"
+        body: |
+          This PR updates the GitHub Pages site with the latest changes from the main branch. 
+          It's an automated workflow, which can be found in `.github/workflows`
         base: gh-pages
         delete-branch: true
