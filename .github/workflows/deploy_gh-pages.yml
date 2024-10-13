@@ -1,0 +1,49 @@
+name: Deploy MkDocs to gh-pages
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: |
+        pip install mkdocs mkdocs-material
+
+    - name: Build MkDocs site
+      run: mkdocs build --clean
+
+    - name: Push changes to gh-pages branch
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git checkout -b gh-pages
+        cp -r site/* .
+        git add .
+        git commit -m "Update GitHub Pages from action [skip ci]"
+        git push origin gh-pages --force
+
+    - name: Create Pull Request to gh-pages
+      uses: peter-evans/create-pull-request@v5
+      with:
+        commit-message: "Deploy MkDocs site"
+        branch: gh-pages
+        title: "Update MkDocs site"
+        body: "This PR updates the GitHub Pages site with the latest changes from the main branch. It's an automated workflow, which can be found in `.github/wrokflows`"
+        base: gh-pages
+        delete-branch: true
