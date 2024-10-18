@@ -39,7 +39,10 @@ The class of 2024 placement cycle ended with impressive results. While many stud
 
 ## Recruiters
 
-![Recruiters](https://github.com/yuvraj-rathod-1202/metaiitgn/blob/academic-dean's-list/docs/career%20images/recruiters.png?raw=true)
+IIT Gandhinagar has partnered with numerous prestigious organizations for placements and internships. The image below showcases some of our esteemed recruiters.
+
+![Logos of companies that have recruited from IIT Gandhinagar](./career%20images/recruiters.png)
+*Figure: A selection of companies that have recruited students from IIT Gandhinagar*
 
 
 
