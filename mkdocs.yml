@@ -9,7 +9,7 @@ theme:
     font:
       text: 'Roboto'
     extra:
-        repository: https://github.com/your/repository
+        repository: https://github.com/OpenSource-IITGn/metaiitgn
         logo: /docs/custom-logo.png
     features:
         - navigation.instant
@@ -20,6 +20,16 @@ theme:
         - navigation.path
     font:
         text: Inter
+extra:
+  social:
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/iitgn.official/
+    - icon: fontawesome/brands/twitter
+      link: https://x.com/iitgn
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/school/indian-institute-of-technology-gandhinagar-iitgn-
+    - icon: fontawesome/brands/github
+      link: https://github.com/OpenSource-IITGn/metaiitgn
 nav:
     - Quick Links: 
       - About: index.md
@@ -62,7 +72,6 @@ nav:
       - Guidelines for Articles: articleguidelines.md
       - Guidelines for Discussions: discussionguidelines.md
         
-    
 extra_css:
   - https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap
   - theme/custom.css
