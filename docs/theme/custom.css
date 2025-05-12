@@ -24,7 +24,7 @@ body {
 
 /* Header styles */
 .md-header {
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
   transition: transform 0.3s ease;
 }
 
@@ -36,9 +36,8 @@ body {
 
 /* Main content styling */
 .md-content {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 1rem;
+  max-width: 100%;
+  padding: 0 1.2rem;
 }
 
 .md-content__inner {
@@ -59,7 +58,7 @@ body {
   text-transform: uppercase;
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: all 0.2s ease;
+  transition: all 0.3s ease;
   padding: 0.6rem 1.2rem;
   border: none;
   background-color: var(--md-primary-fg-color);
@@ -67,9 +66,9 @@ body {
 }
 
 .md-content .md-button:hover {
+  transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   background-color: var(--md-primary-fg-color--dark);
-  transform: translateY(-1px);
 }
 
 /* Sidebar improvements */
@@ -156,15 +155,19 @@ h4, h5, h6 {
 
 /* Tables */
 .md-typeset table:not([class]) {
-  border-radius: 4px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
   overflow: hidden;
 }
 
 .md-typeset table:not([class]) th {
   background-color: var(--md-primary-fg-color);
   color: white;
-  font-weight: 500;
+  padding: 1rem;
+}
+
+.md-typeset table:not([class]) td {
+  padding: 0.8rem 1rem;
 }
 
 /* Images */
@@ -243,7 +246,7 @@ h4, h5, h6 {
 
 /* Make sure content width is large enough */
 .md-grid {
-  max-width: 1300px;
+  max-width: 96%;
 }
 
 .md-typeset {
@@ -292,4 +295,195 @@ a,
 .card-link,
 .feature-item {
   cursor: pointer;
+}
+
+/* Improve card design */
+.card, .feature-item {
+  transition: all 0.3s ease;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  overflow: hidden;
+}
+
+.card:hover, .feature-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  border-color: var(--md-primary-fg-color--light);
+}
+
+/* Add slight gradient to hero section */
+.hero-section {
+  background: linear-gradient(135deg, var(--md-primary-fg-color) 0%, var(--md-primary-fg-color--dark) 100%);
+  padding: 2.5rem 0;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Add subtle animations */
+.md-nav__link, .md-tabs__link, a {
+  transition: all 0.2s ease;
+}
+
+.md-typeset .md-button {
+  transition: all 0.3s ease;
+}
+
+.md-typeset .md-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Improve tables */
+.md-typeset table:not([class]) {
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.md-typeset table:not([class]) th {
+  background-color: var(--md-primary-fg-color);
+  color: white;
+  padding: 1rem;
+}
+
+.md-typeset table:not([class]) td {
+  padding: 0.8rem 1rem;
+}
+
+/* Enhance page section headers */
+.page-header {
+  background: linear-gradient(135deg, var(--md-primary-fg-color) 0%, var(--md-primary-fg-color--dark) 100%);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Improve note section */
+.note-section {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border-left: 4px solid var(--md-primary-fg-color);
+  background-color: rgba(var(--md-primary-fg-color--rgb, 63, 81, 181), 0.05);
+}
+
+/* Make images and icons pop */
+.feature-icon, .card-icon, .page-header-icon, .note-icon {
+  transition: transform 0.3s ease;
+}
+
+.feature-item:hover .feature-icon, 
+.card:hover .card-icon {
+  transform: scale(1.1);
+  color: var(--md-accent-fg-color);
+}
+
+/* Improve code block appearance */
+.md-typeset pre {
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Dark mode specific adjustments */
+[data-md-color-scheme="slate"] .card:hover, 
+[data-md-color-scheme="slate"] .feature-item:hover {
+  border-color: var(--md-primary-fg-color--light);
+  background-color: rgba(255, 255, 255, 0.07);
+}
+
+[data-md-color-scheme="slate"] .note-section {
+  background-color: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+[data-md-color-scheme="slate"] table:not([class]) {
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Fix responsive layout issues */
+@media screen and (max-width: 1300px) {
+  /* Adjust main container width */
+  .md-grid {
+    max-width: 100%;
+  }
+  
+  /* Fix content padding */
+  .md-content {
+    padding: 0 1rem;
+  }
+}
+
+/* Fix mobile sidebar issues */
+@media screen and (max-width: 76.1875em) {
+  /* Hide sidebar properly when collapsed */
+  .md-sidebar--primary:not([data-md-state="lock"]) {
+    width: 0;
+    transform: translateX(-100%);
+    background: none;
+    box-shadow: none;
+  }
+  
+  /* Prevent any gray background */
+  .md-nav--primary .md-nav__title[for="__drawer"] {
+    background-color: var(--md-primary-fg-color);
+    color: var(--md-primary-bg-color);
+  }
+  
+  /* Adjust menu button */
+  .md-nav--primary .md-nav__title ~ .md-nav__list {
+    box-shadow: none;
+    background-color: var(--md-default-bg-color);
+  }
+  
+  /* Fix drawer background */
+  .md-sidebar--primary {
+    background-color: var(--md-default-bg-color);
+  }
+  
+  /* Adjust content when sidebar is open */
+  [data-md-toggle="drawer"]:checked ~ .md-container .md-main .md-content {
+    margin-left: 0;
+  }
+  
+  /* Adjust hamburger menu */
+  .md-header__button.md-icon {
+    margin: 0.4rem;
+  }
+  
+  /* Remove unwanted margins */
+  .md-main__inner {
+    margin-top: 0;
+  }
+  
+  /* Ensure content uses full width */
+  .md-content {
+    max-width: 100%;
+    margin: 0;
+  }
+}
+
+/* Additional mobile fixes */
+@media screen and (max-width: 600px) {
+  /* Adjust typography for small screens */
+  h1 {
+    font-size: 1.6rem;
+  }
+  
+  /* Fix card layouts */
+  .feature-cards, .feature-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  /* Ensure content is properly padded */
+  .md-content {
+    padding: 0 0.8rem;
+  }
+  
+  /* Fix hero section on mobile */
+  .hero-content {
+    padding: 1.5rem 1rem;
+  }
+  
+  /* Make sure no unwanted scrollbars appear */
+  html, body {
+    overflow-x: hidden;
+  }
 }
