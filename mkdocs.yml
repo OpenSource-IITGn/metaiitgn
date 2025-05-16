@@ -4,13 +4,27 @@ repo_url: https://github.com/OpenSource-IITGn/metaiitgn
 theme:
     name: material
     palette:
-      primary: 'light-violet'
-      accent: 'light-violet'
+      # Light mode (default)
+      - scheme: default
+        primary: indigo
+        accent: indigo
+        toggle:
+          icon: material/weather-sunny
+          name: Switch to dark mode
+      # Dark mode
+      - scheme: slate
+        primary: indigo
+        accent: indigo
+        toggle:
+          icon: material/weather-night
+          name: Switch to light mode
     font:
       text: 'Roboto'
-    extra:
-        repository: https://github.com/OpenSource-IITGn/metaiitgn
-        logo: /docs/custom-logo.png
+      code: 'Roboto Mono'
+    logo: ''
+    favicon: 'assets/images/favicon.png'
+    icon:
+      repo: fontawesome/brands/github
     features:
         - navigation.instant
         - navigation.tracking
@@ -18,8 +32,15 @@ theme:
         - navigation.sections
         - navigation.expand
         - navigation.path
-    font:
-        text: Inter
+        - navigation.top
+        - navigation.footer
+        - content.code.copy
+        - content.code.annotate
+        - content.tooltips
+        - header.autohide
+        - search.highlight
+        - search.share
+        - search.suggest
 extra:
   social:
     - icon: fontawesome/brands/facebook
@@ -73,7 +94,7 @@ nav:
       - Guidelines for Discussions: discussionguidelines.md
         
 extra_css:
-  - https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap
+  - https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Roboto+Mono:wght@400;500&display=swap
   - theme/custom.css
 
 extra_javascript:
@@ -81,6 +102,16 @@ extra_javascript:
 
 markdown_extensions:
   - attr_list
+  - md_in_html
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
 
 plugins:
   - search
