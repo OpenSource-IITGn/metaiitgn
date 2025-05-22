@@ -74,7 +74,7 @@
 4. Create an md file with the appropriate name, eg. `academics_branches.md`
 5. Add your content to this file
 6. Open the mkdocs.yml file
-7. Add your page to the list, eg. `Branches: academics_branches.md` 
+7. Add your page to the list, eg. `Branches: academics_branches.md`
 
 ## Previewing Your Changes
 
@@ -85,3 +85,15 @@
 
 2. Open the following link in your browser to preview your website:
     [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
+
+## Deployment
+
+The website is automatically deployed to GitHub Pages at [https://opensource-iitgn.github.io/metaiitgn/](https://opensource-iitgn.github.io/metaiitgn/) when changes are merged to the main branch.
+
+### How it works:
+- The GitHub Actions workflow (`.github/workflows/deploy.yml`) is triggered on every push to the main branch
+- It builds the MkDocs site and deploys it to GitHub Pages
+- The site is served at the `/metaiitgn/` subdirectory path
+
+### Manual deployment:
+You can also trigger the deployment manually by going to the Actions tab in the GitHub repository and running the "Deploy MkDocs to GitHub Pages" workflow.

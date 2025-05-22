@@ -1,0 +1,88 @@
+name: Deploy MkDocs to GitHub Pages
+
+on:
+  # Trigger on push to main branch (when PRs are merged)
+  push:
+    branches:
+      - main
+
+  # Allow manual triggering of the workflow
+  workflow_dispatch:
+
+# Set permissions for GitHub Pages deployment
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  # Build job
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Fetch all history for proper git info
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v4
+
+      - name: Build MkDocs site
+        run: |
+          mkdocs build --clean --strict
+
+      - name: Create subdirectory structure for GitHub Pages
+        run: |
+          mkdir -p ./pages-site/metaiitgn
+          cp -r ./site/* ./pages-site/metaiitgn/
+          # Create a redirect index.html at root to redirect to metaiitgn subdirectory
+          cat > ./pages-site/index.html << 'EOF'
+          <!DOCTYPE html>
+          <html>
+          <head>
+            <meta charset="utf-8">
+            <title>Redirecting to Meta IITGandhinagar</title>
+            <meta http-equiv="refresh" content="0; url=./metaiitgn/">
+            <link rel="canonical" href="./metaiitgn/">
+          </head>
+          <body>
+            <p>If you are not redirected automatically, <a href="./metaiitgn/">click here</a>.</p>
+          </body>
+          </html>
+          EOF
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./pages-site
+
+  # Deploy job
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}metaiitgn/
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

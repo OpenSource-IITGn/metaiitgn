@@ -1,5 +1,5 @@
 site_name: Meta IITGandhinagar
-site_url: https://example.com/
+site_url: https://opensource-iitgn.github.io/metaiitgn/
 repo_url: https://github.com/OpenSource-IITGn/metaiitgn
 theme:
     name: material
@@ -52,7 +52,7 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/OpenSource-IITGn/metaiitgn
 nav:
-    - Quick Links: 
+    - Quick Links:
       - About: index.md
       # - Clubs: clubs.md
       # - What's New: updates.md
@@ -92,7 +92,7 @@ nav:
       - How to contribute: howtocontribute.md
       - Guidelines for Articles: articleguidelines.md
       - Guidelines for Discussions: discussionguidelines.md
-        
+
 extra_css:
   - https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Roboto+Mono:wght@400;500&display=swap
   - theme/custom.css
