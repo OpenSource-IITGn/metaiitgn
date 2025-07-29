@@ -1,4 +1,3 @@
-<style>body {text-align: justify}</style>
 # Postgraduate Programs
 
 IIT Gandhinagar offers diverse postgraduate programs in engineering, sciences, and humanities, focused on academic excellence, research innovation, and interdisciplinary learning.

@@ -1,4 +1,3 @@
-<style> body {text-align: justify}</style>
 # Branch Change
 
 IIT Gandhinagar allows eligible BTech students to change their branch based on academic performance and institute norms. The policy is periodically updated; the latest norms (as of March 2025) are detailed below.
