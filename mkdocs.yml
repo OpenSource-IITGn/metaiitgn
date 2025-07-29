@@ -70,6 +70,7 @@ nav:
       - Grading: academics_grading.md
       - PAL: academics_pal.md
       - Semester Store: academics_semester_store.md
+      - Semester Long-Exposure: academics_semlongexposure.md
       - Deans List: academics_deans_list.md
     - Policies:
       - Academic Advisories: policies.md

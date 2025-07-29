@@ -1,6 +1,6 @@
 <style>body {text-align: justify}</style>
 
-# Semester-Long External Exposure
+# Semester Long External Exposure
 
 The Semester-Long External Exposure program at IIT Gandhinagar enables eligible undergraduate students to spend a full semester gaining structured, credit-earning experience outside the institute. This may include research, internships, or entrepreneurial work that complements academic learning and enhances career readiness.
 
