@@ -59,7 +59,8 @@ nav:
       # - Contacts: contacts.md
     - Academics:
       - About: academics.md
-      - Branches: academics_branches.md
+      - UG Branches: academics_branches.md
+      - PG Branches: academics_pgbranches.md
       - Branch Change: academics_branchchange.md
       - Dean's List: academics_dean's_list.md
       - Honours: academics_honors.md
