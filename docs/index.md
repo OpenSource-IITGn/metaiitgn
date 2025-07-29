@@ -306,12 +306,4 @@ Access resources and information related to career development and placement ser
 - Internship Opportunities
 - Job Placement Assistance -->
 
-## Useful Resources
 
-- [IIT Gandhinagar Official Website](https://www.iitgn.ac.in/)
-- [Campus Facilities](https://campus.iitgn.ac.in/facility/)
-- [Student Life](https://iitgn.ac.in/student/lifeoncampus/)
-
-Feel free to explore the repository and make the most out of the resources available.
-
-If you have any questions or need assistance, don't hesitate to reach out to the MetaIITGN community.

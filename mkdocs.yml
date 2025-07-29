@@ -54,11 +54,14 @@ extra:
 nav:
     - Quick Links:
       - About: index.md
-      # - Clubs: clubs.md
-      # - What's New: updates.md
-      # - Contacts: contacts.md
+      - About IIT Gandhinagar: about.md
+      - Clubs: clubs.md
+      - What's New: updates.md
+      - Contacts: contacts.md
+      - Other Resources: useful_links.md
     - Academics:
       - About: academics.md
+      - Academic Discussion Hours: academics_ADH.md
       - UG Branches: academics_branches.md
       - PG Branches: academics_pgbranches.md
       - Branch Change: academics_branchchange.md
@@ -90,6 +93,8 @@ nav:
       - Alumni Directory: alumni.md
       - Success stories: alumni.md
       - Mentorship: alumni.md
+    - Students:
+      - Student Resources: students.md
     - Community Guidelines:
       - How to contribute: howtocontribute.md
       - Guidelines for Articles: articleguidelines.md
