@@ -42,14 +42,14 @@ Suppose a student is awarded grades G1, G2, G3, and G4 in four courses and the r
 
 <!-- $$ SPI = \frac{c1G1 + c2G2 + c3G3 + c4G4}{c1 + c2 + c3 + c4} $$ -->
 
-[![\\ SPI = \frac{c1G1 + c2G2 + c3G3 + c4G4}{c1 + c2 + c3 + c4}](https://latex.codecogs.com/svg.latex?%5C%5C%20SPI%20%3D%20%5Cfrac%7Bc1G1%20%2B%20c2G2%20%2B%20c3G3%20%2B%20c4G4%7D%7Bc1%20%2B%20c2%20%2B%20c3%20%2B%20c4%7D)](#_)
+![SPI Formula](https://latex.codecogs.com/svg.latex?%5C%5C%20SPI%20%3D%20%5Cfrac%7Bc1G1%20%2B%20c2G2%20%2B%20c3G3%20%2B%20c4G4%7D%7Bc1%20%2B%20c2%20%2B%20c3%20%2B%20c4%7D)
 <br><br>
 **G.) Cumulative Performance Index (CPI)** - The CPI is indicative of the overall academic performance of a student in all the courses registered. In case of a **P** grade, the credits of that course are dropped from calculation of CPI. Considering all the courses (say, N), the CPI is calculated as:
 
 <!-- $$
 CPI = \frac{\sum_{i = 1}^{N} c_iG_i}{\sum_{i = 1}^{N}c_i}
 $$ -->
-[![\\ CPI = \frac{\sum_{i = 1}^{N} c_iG_i}{\sum_{i = 1}^{N}c_i}](https://latex.codecogs.com/svg.latex?%5C%5C%20CPI%20%3D%20%5Cfrac%7B%5Csum_%7Bi%20%3D%201%7D%5E%7BN%7D%20c_iG_i%7D%7B%5Csum_%7Bi%20%3D%201%7D%5E%7BN%7Dc_i%7D)](#_)
+![CPI Formula](https://latex.codecogs.com/svg.latex?%5C%5C%20CPI%20%3D%20%5Cfrac%7B%5Csum_%7Bi%20%3D%201%7D%5E%7BN%7D%20c_iG_i%7D%7B%5Csum_%7Bi%20%3D%201%7D%5E%7BN%7Dc_i%7D)
 
 Note that, whenever a student is permitted to substitute or repeat a course, a new letter grade replaces the older one while computing the CPI, but, both the grades appear in his/her Grade Report.
 <br><br>

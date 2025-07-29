@@ -1,0 +1,13 @@
+[build]
+  command = "pip install -r requirements.txt && python -m mkdocs build"
+  publish = "site"
+
+[build.environment]
+  PYTHON_VERSION = "3.11"
+
+# Only build deploy previews for pull requests, not production deploys
+[context.deploy-preview]
+  command = "pip install -r requirements.txt && python -m mkdocs build"
+
+[context.branch-deploy]
+  command = "pip install -r requirements.txt && python -m mkdocs build"
