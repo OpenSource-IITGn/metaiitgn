@@ -12,14 +12,15 @@ The Dean's List recognizes those students who achieve a certain level of academi
 
 ##### Top 5% of enrolled students in each discipline based on SPI shall be placed on the Dean's List, provided the following eligibility criteria are met:
 
-1. The SPI should be equal to or greater than 8.0
+1. The SPI should be equal to or greater than 9.0
 2. The minimum credit load (excluding the thesis units) should be 20
 3. There should not be an F grade in any credit courses in the concerned semester
-4. Not placed on any probation – academic or disciplinary
+4. Grades in all credit courses: B or higher.
+5. Not placed on any probation – academic or disciplinary
 
 ##
 
-* Top 15% of enrolled students in each discipline based on SPI shall be put on the Academic Citation list provided they meet the same eligibility criteria as of the Dean’s List. A student who gets into both the lists will be placed only in the Dean’s List.
+* The top 5% of the enrolled students in each discipline based on SPI are placed on the Dean's List, and the next 10% of students are awarded the Academic Citation subject to meeting the following eligibility criteria.
 * Students in all variants of BTech programmes including BTech-MTech, BTech-MSc, BTech dual major etc. shall be considered for the Dean's List/Academic Citation in their parent discipline only. Such students will be put in a single cohort for these lists.
 * CPI will be used as a tie breaker.
 * If the number of students in a discipline for a specific batch is such that 15% of the student strength is less than 3, Rank 1 shall be placed on the Dean's List, and Rank 2 & Rank 3 shall be placed in the Academic Citation List subject to meeting the above eligibility criteria.
