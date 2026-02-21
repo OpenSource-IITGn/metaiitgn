@@ -244,7 +244,7 @@ Whether you are a first-year student charting your academic journey, a final-yea
 
 MetaIITGandhinagar aspires to be a centralized hub and interactive platform for IIT Gandhinagar students. Drawing inspiration from MetaKGP, this platform is a vast, open source repository of everything IITGN-related. From how to change your branch to the menu at teapost, MetaGn aims to cover every aspect of life here and put it online with the help of articles written by the community.More than a passive information resource, it's a user-driven platform inviting your active engagement. Share your knowledge by contributing to an article and your insights and experiences in the discussion section. 
 
-Find out more about how to contribute [here](https://www.github.com).
+Find out more about how to contribute [here](howtocontribute.md).
 
 
 
