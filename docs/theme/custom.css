@@ -333,22 +333,8 @@ a,
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Improve tables */
-.md-typeset table:not([class]) {
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
-  border-radius: 8px;
-  overflow: hidden;
-}
 
-.md-typeset table:not([class]) th {
-  background-color: var(--md-primary-fg-color);
-  color: white;
-  padding: 1rem;
-}
 
-.md-typeset table:not([class]) td {
-  padding: 0.8rem 1rem;
-}
 
 /* Enhance page section headers */
 .page-header {
