@@ -75,22 +75,15 @@ nav:
       - Semester Store: academics_semester_store.md
       - Semester Long-Exposure: academics_semlongexposure.md
     - Policies:
-      - Academic Advisories: policies.md
-      - SSAC: policies.md
-      - Scholarships: policies.md
+      - Policies: policies.md
       - Honour Code: honour_code.md
-      - Anti-Ragging Policy: policies.md
     - Courses:
-      - Courses offered: courses.md
-      - Course guides: courses.md
-      - Course materials: courses.md
+      - Courses: courses.md
     - Careers:
       - Internships and Placement: careers.md
       # - Placements: placements.md
     - Alumni:
-      - Alumni Directory: alumni.md
-      - Success stories: alumni.md
-      - Mentorship: alumni.md
+      - Alumni: alumni.md
     - Students:
       - Student Resources: students.md
     - Community Guidelines:
