@@ -1,51 +1,58 @@
-# Brevis pronas illi
+# About IIT Gandhinagar
 
-## Pulmone est audacia numina abit vertice hoc
+IIT Gandhinagar (IITGN) is a public technical university located in Palaj, Gandhinagar, Gujarat. Established in 2008 by the Ministry of Education, Government of India, IITGN is one of the newer Indian Institutes of Technology and is known for its interdisciplinary curriculum, flexible academic structure, and strong emphasis on research and innovation.
 
-Lorem markdownum somnis colebat, et orant, aperire et adfuit vulgus sedula.
-Tepido aut gratia adverso orbem hac, tum mox concurrere nulla in vultus permisit
-visendae tuta.
+## Overview
 
-## Huic opusque
+| Detail | Information |
+|--------|-------------|
+| **Established** | 2008 |
+| **Location** | Palaj, Gandhinagar, Gujarat, India |
+| **Type** | Public technical university (Institute of National Importance) |
+| **Mentor Institute** | IIT Bombay (during initial years) |
+| **Campus** | ~400 acres along the Sabarmati river |
 
-Aegro nil: corpus manu pariter iubendo summa
-[perculit](http://www.ecce-non.com/dolores-numero.html) nefandam. Ut candore
-detur bina tuum pavor! Natumque dumque.
+## Academics
 
-- Cum hospes mandasset peperit procorum
-- Viros hinc uti est ait crescentes quibus
-- Dant properent tollentes pondere ostro praelata et
+IITGN offers undergraduate (BTech, BTech-MTech dual degree), postgraduate (MTech, MSc, MA, MPhil), and doctoral (PhD) programs across engineering, science, humanities, and social sciences. The institute follows a flexible credit-based curriculum that allows students to explore courses across disciplines.
 
-## Vidisset fugit
+Key academic features:
 
-Ille illa [nuntius saxa](http://bracchiacaput.com/o.aspx) arces opus credensque
-capit, parvus, socios, nuper contendite verba residentem.
-[Ferebat](http://aras.com/perque-ex) manifesta ille Memnonis [hunc quid
-penitusque](http://www.tunc-placet.io/) valet, non exit nec dixi carcere: aut
-locus urbis.
+- **Interdisciplinary curriculum**: Students can take courses outside their core discipline
+- **Flexible branch change**: Option to change branches after the first year based on performance
+- **Research emphasis**: Undergraduate research opportunities and project-based learning
+- **Humanities and social sciences**: Integrated into the curriculum for all students
 
-- Morte putares o oscula non qui
-- Tum Nestora metus at nam cognataque
-- Aures odorato subtemen animae videnda Echion rogando
-- Manus bis est
+## Campus Life
 
-## Densetur forte sibilat nec amantes
+The IITGN campus is residential, with hostels for students and faculty housing. Campus life includes academic activities, student clubs, sports, cultural events, and technical festivals. Students engage through clubs, hobby groups, and student organizations covering a wide range of interests.
 
-*Hoc* Oenopiam autumni genetrixque vincis! Par tibi frondator adspicit habere
-offensamque et arma nam, somnis mediamque deprendi bovis *relinquo*. De haec
-pulmone ecce citharae, longo ceperat caeli, vides matri contra: bella.
+## Values
 
-## Numero sic territa muneris
+IITGN emphasizes:
 
-Cruentior et Achille enim. Adeo cum lacrimans quisquam motura. Salutis
-Polyphemon posset se Oresitrophos et duorum, membra forsitan *erat*? Fugit quod
-stantia mediae, [tempus](http://www.quam-segeti.org/forma.html) nobilitate
-titulum praenuntia Stygio mentis despicit advehor adgrediare corrige ultra.
-Altera raptamque proles diversi, mutata est lavit atria neve securus Pygmaeae
-corpore.
+- Academic excellence and intellectual curiosity
+- Interdisciplinary learning and collaboration
+- Research and innovation
+- Inclusive and diverse campus community
+- Student autonomy and self-governance
 
-Viscera coactis tum *mitis illa saepe* hanc corpore, nec suco: lymphata remissos
-ibat: ut fertur, aliquem. Haec **pro talia habet** domos atro virtus, coeamus
-dicebat tulit. Ingreditur quid: densi haec umbram *fatalia*, Riphea nec, non
-vindice; sis auctor, *aestum*. Inter Rex demissior litore fuit amnem malit suus,
-nobis signo.
+## Related Pages
+
+- [Academics Overview](academics.md)
+- [Clubs](clubs.md)
+- [Students](students.md)
+- [Policies](policies.md)
+- [Careers](careers.md)
+- [Alumni](alumni.md)
+- [Technical Council](https://github.com/OpenSource-IITGn/tech-council)
+
+## Official Resources
+
+- [IIT Gandhinagar Official Website](https://www.iitgn.ac.in/)
+- [Campus Facilities](https://campus.iitgn.ac.in/facility/)
+- [Student Life](https://iitgn.ac.in/student/lifeoncampus/)
+
+---
+
+*Last updated: November 2026. If you notice outdated information, please open an issue or submit a pull request to keep this page current.*

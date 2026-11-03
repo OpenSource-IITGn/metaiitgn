@@ -58,6 +58,7 @@ nav:
       - Clubs: clubs.md
       - What's New: updates.md
       - Contacts: contacts.md
+      - Council Resources: council_resources.md
     - Academics:
       - About: academics.md
       - Academic Discussion Hours: academics_ADH.md
@@ -75,24 +76,18 @@ nav:
       - Semester Store: academics_semester_store.md
       - Semester Long-Exposure: academics_semlongexposure.md
     - Policies:
-      - Academic Advisories: policies.md
-      - SSAC: policies.md
-      - Scholarships: policies.md
+      - Policies: policies.md
       - Honour Code: honour_code.md
-      - Anti-Ragging Policy: policies.md
     - Courses:
-      - Courses offered: courses.md
-      - Course guides: courses.md
-      - Course materials: courses.md
+      - Courses: courses.md
     - Careers:
       - Internships and Placement: careers.md
       # - Placements: placements.md
     - Alumni:
-      - Alumni Directory: alumni.md
-      - Success stories: alumni.md
-      - Mentorship: alumni.md
+      - Alumni: alumni.md
     - Students:
       - Student Resources: students.md
+      - Student Organizations: students.md
     - Community Guidelines:
       - How to contribute: howtocontribute.md
       - Guidelines for Articles: articleguidelines.md
@@ -104,6 +99,7 @@ extra_css:
 
 extra_javascript:
   - https://kit.fontawesome.com/5772cf3e3c.js
+  - theme/custom.js
 
 markdown_extensions:
   - attr_list
