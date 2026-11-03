@@ -97,6 +97,7 @@ extra_css:
 
 extra_javascript:
   - https://kit.fontawesome.com/5772cf3e3c.js
+  - theme/custom.js
 
 markdown_extensions:
   - attr_list

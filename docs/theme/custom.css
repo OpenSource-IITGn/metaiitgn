@@ -204,6 +204,33 @@ h4, h5, h6 {
   border-radius: 4px;
 }
 
+/* Search highlights — Material wraps matches in <mark> tags.
+   These must be visually distinct but never permanent. */
+.md-typeset mark,
+.md-content mark,
+article mark,
+main mark {
+  background-color: rgba(var(--md-accent-fg-color--rgb, 83, 109, 254), 0.35);
+  color: inherit;
+  border-radius: 2px;
+  padding: 0 2px;
+  box-shadow: 0 0 0 1px rgba(var(--md-accent-fg-color--rgb, 83, 109, 254), 0.5);
+}
+
+/* Dark mode highlight styling */
+[data-md-color-scheme="slate"] .md-typeset mark,
+[data-md-color-scheme="slate"] .md-content mark,
+[data-md-color-scheme="slate"] article mark,
+[data-md-color-scheme="slate"] main mark {
+  background-color: rgba(83, 109, 254, 0.45);
+  box-shadow: 0 0 0 1px rgba(83, 109, 254, 0.7);
+}
+
+/* Ensure search results modal doesn't leave stray highlights */
+.md-search__results mark {
+  background-color: rgba(var(--md-accent-fg-color--rgb, 83, 109, 254), 0.25);
+}
+
 /* Animations */
 .md-typeset a {
   transition: color 0.2s ease;
