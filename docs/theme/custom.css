@@ -79,7 +79,7 @@ body {
 
 .md-nav__title {
   padding: 1rem 0.8rem;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   font-weight: 500;
 }
 
@@ -87,7 +87,7 @@ body {
   margin: 0.3rem 0;
   padding: 0.5rem 0.8rem;
   border-radius: 4px;
-  font-size: 0.78rem;
+  font-size: 0.7rem;
 }
 
 .md-nav__link:hover {
@@ -181,9 +181,9 @@ h4, h5, h6 {
   background-color: var(--md-primary-fg-color--dark);
 }
 
-/* Navigation tabs */
+/* Navigation tabs — secondary navigation */
 .md-tabs__link {
-  font-size: 0.75rem;
+  font-size: 0.68rem;
   font-weight: 400;
   opacity: 0.7;
   transition: opacity 0.2s ease;
@@ -242,12 +242,12 @@ main mark {
 
 /* Navbar and navigation font size adjustments */
 .md-nav {
-  font-size: 0.78rem;
+  font-size: 0.7rem;
   line-height: 1.4;
 }
 
 .md-header__title {
-  font-size: 0.9rem;
+  font-size: 0.85rem;
 }
 
 /* Hero and card text adjustments */
