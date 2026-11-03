@@ -79,7 +79,7 @@ body {
 
 .md-nav__title {
   padding: 1rem 0.8rem;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   font-weight: 500;
 }
 
@@ -87,7 +87,7 @@ body {
   margin: 0.3rem 0;
   padding: 0.5rem 0.8rem;
   border-radius: 4px;
-  font-size: 0.78rem;
+  font-size: 0.7rem;
 }
 
 .md-nav__link:hover {
@@ -181,9 +181,9 @@ h4, h5, h6 {
   background-color: var(--md-primary-fg-color--dark);
 }
 
-/* Navigation tabs */
+/* Navigation tabs — secondary navigation */
 .md-tabs__link {
-  font-size: 0.75rem;
+  font-size: 0.68rem;
   font-weight: 400;
   opacity: 0.7;
   transition: opacity 0.2s ease;
@@ -204,6 +204,33 @@ h4, h5, h6 {
   border-radius: 4px;
 }
 
+/* Search highlights — Material wraps matches in <mark> tags.
+   These must be visually distinct but never permanent. */
+.md-typeset mark,
+.md-content mark,
+article mark,
+main mark {
+  background-color: rgba(var(--md-accent-fg-color--rgb, 83, 109, 254), 0.35);
+  color: inherit;
+  border-radius: 2px;
+  padding: 0 2px;
+  box-shadow: 0 0 0 1px rgba(var(--md-accent-fg-color--rgb, 83, 109, 254), 0.5);
+}
+
+/* Dark mode highlight styling */
+[data-md-color-scheme="slate"] .md-typeset mark,
+[data-md-color-scheme="slate"] .md-content mark,
+[data-md-color-scheme="slate"] article mark,
+[data-md-color-scheme="slate"] main mark {
+  background-color: rgba(83, 109, 254, 0.45);
+  box-shadow: 0 0 0 1px rgba(83, 109, 254, 0.7);
+}
+
+/* Ensure search results modal doesn't leave stray highlights */
+.md-search__results mark {
+  background-color: rgba(var(--md-accent-fg-color--rgb, 83, 109, 254), 0.25);
+}
+
 /* Animations */
 .md-typeset a {
   transition: color 0.2s ease;
@@ -215,12 +242,12 @@ h4, h5, h6 {
 
 /* Navbar and navigation font size adjustments */
 .md-nav {
-  font-size: 0.78rem;
+  font-size: 0.7rem;
   line-height: 1.4;
 }
 
 .md-header__title {
-  font-size: 0.9rem;
+  font-size: 0.85rem;
 }
 
 /* Hero and card text adjustments */
